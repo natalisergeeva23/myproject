@@ -1,0 +1,342 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки профиля</title>
+    <link rel="stylesheet" href="~/css/header_footer.css">
+    <link rel="stylesheet" href="~/css/settings_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="logo">
+                    <h1>MINIGIGS</h1>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="main-nav">
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li class="mr-3"><a asp-controller="Home" asp-action="AddCustom">Добавить заказ</a></li>
+                        <li class="mr-3"><a asp-controller="Home" asp-action="MyOrders">Мои заказы</a></li>
+                        <li><a asp-controller="Home" asp-action="FinanceCustomer">Финансы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="user-cabinet">
+                    <a href="javascript:void(0);" class="user-cabinet-link">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="user-profile">
+                    <img src="~/sourse/add_order_img/account_acons.png" alt="img_account_header">
+                    <p id="username">Имя пользователя</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section1">
+        <div class="container mt-5">
+            <h1>Настройки профиля</h1>
+            <div class="tabs">
+                <button class="tab" onclick="openTab(event, 'profile')">Профиль</button>
+                <button class="tab" onclick="openTab(event, 'password')">Пароль</button>
+            </div>
+
+            <!-- Секция для вкладки "Профиль" -->
+            <div id="profile" class="tabcontent">
+                <div class="profile-section">
+                    <h2>Информация о пользователе</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Настоящее имя:</label>
+                            <input type="text" id="name" name="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="birthdate">Дата рождения:</label>
+                            <input type="text" id="birthdate" name="birthdate" placeholder="ДД.ММ.ГГГГ">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Пол:</label>
+                            <select id="gender" name="gender">
+                                <option value="not_specified">Не указан</option>
+                                <option value="male">Мужской</option>
+                                <option value="female">Женский</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <button class="save-button">Сохранить</button>
+            </div>
+
+            <!-- Секция для вкладки "Пароль" -->
+            <div id="password" class="tabcontent" style="display: none;">
+                <div class="profile-section">
+                    <h2>Смена пароля</h2>
+                    <div class="form-group">
+                        <label for="currentPassword">Текущий пароль</label>
+                        <input type="password" id="currentPassword" name="currentPassword">
+                    </div>
+                    <div class="form-group">
+                        <label for="newPassword">Новый пароль</label>
+                        <input type="password" id="newPassword" name="newPassword">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Подтвердите новый пароль</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword">
+                    </div>
+                    <button class="save-button" onclick="changePassword()">Сохранить пароль</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var linkToCabinet = document.querySelector('.user-cabinet-link');
+
+                linkToCabinet.addEventListener('click', function (e) {
+                    e.preventDefault(); // Предотвращаем стандартный переход по ссылке
+                    var userRole = localStorage.getItem('userRole');
+
+                    if (userRole === '1') {
+                        window.location.href = '/Home/CustomerOffice';
+                    } else if (userRole === '2') {
+                        window.location.href = '/Home/ExecutorOffice';
+                    } else {
+                        // Если роль не определена, можно перенаправить на страницу входа или показать сообщение
+                        alert('Пожалуйста, выполните вход.');
+                    }
+                });
+            });
+        </script>
+
+        <script>
+            function openTab(evt, tabName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(tabName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Получаем сохраненный ID пользователя
+                var userId = localStorage.getItem('userId');
+
+                fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'text/plain',
+                        // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                        'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                    }
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(userData => {
+                        console.log(userData);
+                        // Обновляем информацию на странице
+                        document.getElementById('username').textContent = userData.name;
+                        document.getElementById('usernames').textContent = userData.name;
+                        // Если есть другие элементы для обновления, добавьте их здесь
+                    })
+                    .catch(error => console.error('Failed to fetch user data:', error));
+            });
+
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+
+                // Функция для выполнения GET запроса к серверу
+
+                function fetchUserData() {
+                    var userId = localStorage.getItem('userId');
+
+                    fetch(`http://172.20.10.2:5089/api/Users/${userId}`) // Исправлено на шаблонную строку
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            // Заполнение формы данными
+                            document.getElementById('name').value = data.name || '';
+                            document.getElementById('email').value = data.email || '';
+                            // Добавляем проверку и заполнение для даты рождения
+                            if (data.birthDate) {
+                                let birthDate = new Date(data.birthDate);
+                                let day = ("0" + birthDate.getDate()).slice(-2);
+                                let month = ("0" + (birthDate.getMonth() + 1)).slice(-2);
+                                let year = birthDate.getFullYear();
+                                document.getElementById('birthdate').value = `${day}.${month}.${year}`;
+                            } else {
+                                document.getElementById('birthdate').value = ''; // или установить placeholder
+                            }
+
+                            // Установка значения поля пола
+                            if (data.gender) {
+                                document.getElementById('gender').value = data.gender;
+                            } else {
+                                document.getElementById('gender').value = 'not_specified'; // Значение по умолчанию
+                            }
+                        })
+                        .catch(error => {
+                            console.error('There has been a problem with your fetch operation:', error);
+                        });
+                }
+
+
+                // Вызов функции при загрузке страницы
+                fetchUserData();
+            });
+        </script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function (event) {
+                function parseDate(input) {
+                    const parts = input.match(/(\d+)/g);
+                    // parts[0] - день, parts[1] - месяц, parts[2] - год
+                    if (!parts) return null;
+
+                    // Создание ISO строки без преобразования во временной пояс UTC
+                    const isoDate = `${parts[2]}-${parts[1]}-${parts[0]}T00:00:00.000`;
+                    return isoDate;
+                }
+
+
+
+                const saveButton = document.querySelector('.save-button');
+
+                saveButton.addEventListener('click', function (event) {
+                    event.preventDefault();
+
+                    const userId = localStorage.getItem('userId');
+
+                    // Собираем данные из формы
+                    const birthDateValue = document.getElementById('birthdate').value;
+                    const isoDate = parseDate(birthDateValue); // Возвращает строку в формате ISO
+                    const userData = {
+                        idUser: userId,
+                        name: document.getElementById('name').value,
+                        email: document.getElementById('email').value,
+                        birthDate: isoDate, // Используем возвращенную строку
+                        gender: document.getElementById('gender').value
+                    };
+
+                    // Отправляем данные на сервер с использованием PUT запроса
+                    fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(userData)
+                    })
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error('Network response was not ok');
+                            }
+                            if (response.status === 204) {
+                                console.log('Updated successfully, no content returned.');
+                                return;
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            console.log('Success:', data);
+                            // Здесь можно добавить действия после успешного обновления данных пользователя
+                        })
+                        .catch((error) => {
+                            console.error('Error:', error);
+                            // Обработка ошибок
+                        });
+                });
+
+            });
+        </script>
+
+        
+    </section>
+
+    <footer class="footer footer-index bg-purple text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="footer-index-container-logo">
+                        <img src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="AboutProjectCustomer">О проекте</a>
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="SupportServiceCustomer">Служба поддержки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="footer-index-text">© MINIGIGS 2024. Сайт может содержать материалы для лиц старше 18 лет</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        async function changePassword() {
+            const currentPassword = document.getElementById('currentPassword').value;
+            const newPassword = document.getElementById('newPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            var userId = localStorage.getItem('userId');
+
+            // Проверять совпадение нового пароля и его подтверждения на клиенте
+            if (newPassword !== confirmPassword) {
+                alert('Новый пароль и его подтверждение не совпадают!');
+                return;
+            }
+
+            // Теперь отправим запрос на сервер
+            const response = await fetch(`http://172.20.10.2:5089/api/Users/${userId}/UpdatePassword`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                    // Добавьте сюда заголовок авторизации, если требуется
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                },
+                body: JSON.stringify({
+                    currentPassword: currentPassword,
+                    newPassword: newPassword
+                })
+            });
+
+            // Обработка ответа сервера
+            if (response.ok) {
+                alert('Пароль успешно изменен!');
+            } else {
+                const result = await response.json();
+                alert(result.message || 'Ошибка при смене пароля. Попробуйте снова.');
+            }
+        }
+    </script>
+</body>

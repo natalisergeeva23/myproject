@@ -1,0 +1,141 @@
+﻿.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #8B00FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Чтобы padding не увеличивал ширину блока */
+    z-index: 999; /* Устанавливаем подвал поверх остального контента */
+    padding-top: 20px;
+}
+
+.footer-index {
+    background-color: #8B00FF; /* Нежно фиолетовый фон */
+    padding: 20px;
+    display: flex; /* Располагаем элементы внутри блока в строку */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+
+.footer-index-img {
+    max-width: 100%; /* Масштабируем логотип по ширине блока */
+    height: auto;
+}
+
+.links-footer-index-container {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок друг под другом */
+}
+
+.links-footer-index-text {
+    font-weight: bold;
+    color: white; /* Цвет текста */
+    margin-top: 5px; /* Отступ между кнопками */
+}
+
+
+.footer-index-text {
+    color: white; /* Цвет текста */
+    font-weight: bold;
+}
+
+.footer-img {
+    max-width: 100%; /* Масштабируем логотип по ширине блока */
+    height: auto;
+    margin-left: 130px;
+    margin-top: -46px;
+}
+
+.links-footer-container {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок друг под другом */
+    margin-right: 620px;
+}
+
+.links-footer-text {
+    font-weight: bold;
+    color: white; /* Цвет текста */
+    margin-top: 5px; /* Отступ между кнопками */
+}
+
+
+.footer-text {
+    margin-top: 30px; /* Отступ сверху для текста в нижней части блока */
+    color: white; /* Цвет текста */
+    font-weight: bold;
+}
+
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.main-nav {
+}
+
+    .main-nav li {
+        margin-right: 20px;
+    }
+
+        .main-nav li:last-child {
+            margin-right: 0;
+        }
+
+    .main-nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.user-cabinet {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-cabinet-icon {
+    width: 150px;
+    height: 30px;
+    border: 2px solid #333333;
+}
+
+.user-cabinet-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

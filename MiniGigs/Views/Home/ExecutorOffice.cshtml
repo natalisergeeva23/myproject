@@ -1,0 +1,349 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет исполнителя</title>
+    <link rel="stylesheet" href="~/css/header_footer.css">
+    <link rel="stylesheet" href="~/css/customer_office_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="logo">
+                    <h1>MINIGIGS</h1>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="TaskSearch">Поиск задач</a></li>
+                        <li><a asp-controller="Home" asp-action="MyWork">Мои работы</a></li>
+                        <li><a asp-controller="Home" asp-action="FinanceExecutor">Финансы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="user-cabinet">
+                    <a href="javascript:void(0);" class="user-cabinet-link">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="user-profile">
+                    <img src="~/sourse/add_order_img/account_acons.png" alt="img_account_header">
+                    <p id="username">Имя пользователя</p> <!-- Добавлен id для элемента -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="container mt-5" style="margin-bottom: 50px">
+        <h2 class="site-block-title">Личный кабинет исполнителя</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="sidebar-heading">
+                    <span class="sidebar-heading-text">Привет, <span id="usernames">имя пользователя</span></span>
+                    <hr class="sidebar-divider">
+                </div>
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Поиск задач" class="navigation-icon">
+                        <a class="navigation-text" asp-controller="Home" asp-action="TaskSearch">Поиск задач</a>
+                    </li>
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Мои работы" class="navigation-icon">
+                        <a class="navigation-text" asp-controller="Home" asp-action="MyWork">Мои работы</a>
+                    </li>
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Финансы" class="navigation-icon">
+                        <a class="navigation-text" asp-controller="Home" asp-action="FinanceExecutor">Финансы</a>
+                    </li>
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Служба поддержки" class="navigation-icon">
+                        <a class="navigation-text" asp-controller="Home" asp-action="SupportServiceExecuter">Служба поддержки</a>
+                    </li>
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Настройки" class="navigation-icon">
+                        <a class="navigation-text" asp-controller="Home" asp-action="SettingsExecuter">Настройки</a>
+                    </li>
+                    <li class="navigation-item">
+                        <img src="~/sourse/customer_office_img/icons-tochka.png" alt="Выход" class="navigation-icon">
+                        <a class="navigation-text" href="#" id="logout">Выход</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="balance-info col">
+                <h3 class="balance-title">Ваш баланс</h3>
+                <p class="balance-amount">Баланс: 0 руб</p>
+                <div class="balance-buttons">
+                    <a asp-controller="Home" asp-action="FinanceExecutor"> <button class="history-button">История</button> </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="user-info col mt-5">
+            <div class="user-level">
+                <span class="level-text">У вас <span id="points">1</span> балл, ваш уровень исполнителя <span id="user-level">Новичок</span></span>
+                <hr class="level-bar">
+
+                <div class="level-separator">
+                    <p class="level-label">Базовый</p>
+                    <hr class="vertical-line">
+
+                    <p class="level-label">Продвинутый</p>
+                    <hr class="vertical-line">
+
+                    <p class="level-label">Высокий</p>
+                    <hr class="vertical-line">
+
+                    <p class="level-label">Профи</p>
+                </div>
+                <div class="level-footer">
+                    <img src="~/sourse/customer_office_img/icons-info.png" alt="Link Icon" class="link-icon">
+                    <a class="text-info" asp-controller="Home" asp-action="LevelExecuter">Как это работает?</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer footer-index bg-purple text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="footer-index-container-logo">
+                        <img src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="AboutProjectExecutor">О проекте</a>
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="SupportServiceExecuter">Служба поддержки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="footer-index-text">© MINIGIGS 2024. Сайт может содержать материалы для лиц старше 18 лет</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var linkToCabinet = document.querySelector('.user-cabinet-link');
+
+            linkToCabinet.addEventListener('click', function (e) {
+                e.preventDefault(); // Предотвращаем стандартный переход по ссылке
+                var userRole = localStorage.getItem('userRole');
+
+                if (userRole === '1') {
+                    window.location.href = '/Home/CustomerOffice';
+                } else if (userRole === '2') {
+                    window.location.href = '/Home/ExecutorOffice';
+                } else {
+                    // Если роль не определена, можно перенаправить на страницу входа или показать сообщение
+                    alert('Пожалуйста, выполните вход.');
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Получаем сохраненный ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'text/plain',
+                    // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                }
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(userData => {
+                    console.log(userData);
+                    // Обновляем информацию на странице
+                    document.getElementById('username').textContent = userData.name;
+                    document.getElementById('usernames').textContent = userData.name;
+                    // Если есть другие элементы для обновления, добавьте их здесь
+                })
+                .catch(error => console.error('Failed to fetch user data:', error));
+        });
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Получаем сохраненный ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'text/plain',
+                    // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                }
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(userData => {
+                    console.log(userData);
+                    // Обновляем информацию на странице
+                    document.getElementById('username').textContent = userData.name;
+                    document.getElementById('usernames').textContent = userData.name;
+
+                    // Если есть другие элементы для обновления, добавьте их здесь
+                })
+                .catch(error => console.error('Failed to fetch user data:', error));
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Находим элемент для отображения баланса
+            var balanceInfo = document.querySelector('.balance-amount');
+
+            // Определяем ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            // Формируем URL для запроса на сервер
+            var url = 'http://172.20.10.2:5089/api/Users/' + userId;
+
+            // Отправляем запрос на сервер для получения данных о пользователе
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // Парсим полученные данные в формат JSON
+                    var userData = JSON.parse(xhr.responseText);
+
+                    // Обновляем информацию о балансе на странице
+                 
+                        balanceInfo.textContent = 'Баланс: ' + userData.amount + ' руб';
+                    
+                } else {
+                    // Обработка ошибок
+                    console.error('Ошибка при получении данных о пользователе:', xhr.statusText);
+                }
+            };
+            xhr.send();
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var logoutLink = document.getElementById('logout');
+
+            logoutLink.addEventListener('click', function (e) {
+                e.preventDefault(); // Предотвращаем стандартное поведение ссылки
+
+                // Очищаем данные пользователя из localStorage
+                localStorage.removeItem('userId');
+                // Можно добавить удаление и других данных, если они есть
+
+                // Перенаправляем на главную страницу
+                window.location.href = '/'; // Укажите корректный путь к главной странице
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async function () {
+            // Определяем ID пользователя
+            const userId = localStorage.getItem('userId');
+
+            // Формируем URL для запроса на сервер для получения данных о прогрессе пользователя
+            const progressUrl = `http://172.20.10.2:5089/api/ProgressUsers/ByUserId/${userId}`;
+
+            try {
+                // Отправляем запрос на сервер для получения данных о прогрессе пользователя
+                const response = await fetch(progressUrl);
+                if (!response.ok) {
+                    throw new Error(`Ошибка при получении данных о прогрессе пользователя: ${response.statusText}`);
+                }
+
+                // Парсим полученные данные в формат JSON
+                const progressData = await response.json();
+
+                // Если данные о прогрессе пользователя найдены
+                if (progressData && progressData.length > 0) {
+                    // Получаем значение прогресса из данных
+                    const progressValue = progressData[0].value;
+
+                    // Обновляем полосу прогресса на странице
+                    updateProgressBar(progressValue);
+                }
+            } catch (error) {
+                console.error('Ошибка:', error);
+                // Обработка ошибок при получении данных о прогрессе пользователя
+            }
+        });
+        function updateProgressBar(progressValue) {
+            // Устанавливаем максимальное значение прогресса
+            const maxProgressValue = 100;
+            // Текущее значение прогресса
+            const currentProgressValue = progressValue; // Это значение должно быть получено из БД
+
+            // Рассчитываем процент текущего прогресса от максимального значения
+            const progressPercentage = Math.min((progressValue / maxProgressValue) * 100, 100);
+
+            // Находим элементы на странице для обновления
+            const pointsElement = document.getElementById('points');
+            const userLevelElement = document.getElementById('user-level');
+            const levelBarElement = document.querySelector('.level-bar');
+
+            // Устанавливаем текст с количеством баллов и уровнем пользователя
+            pointsElement.textContent = currentProgressValue;
+            userLevelElement.textContent = determineUserLevel(progressPercentage);
+
+            // Устанавливаем ширину полосы прогресса в зависимости от вычисленного процентного значения
+            levelBarElement.style.width = `${progressPercentage}%`;
+
+            // Устанавливаем цвет полосы прогресса на зелёный
+            levelBarElement.style.backgroundColor = determineColorByLevel(userLevelElement.textContent);
+        }
+
+        function determineUserLevel(progressPercentage) {
+            if (progressPercentage < 25) {
+                return "Базовый";
+            } else if (progressPercentage < 50) {
+                return "Продвинутый";
+            } else if (progressPercentage < 75) {
+                return "Высокий";
+            } else {
+                return "Профи";
+            }
+        }
+
+        function determineColorByLevel(level) {
+            switch (level) {
+                case "Базовый":
+                    return "green";
+                case "Продвинутый":
+                    return "blue";
+                case "Высокий":
+                    return "orange";
+                default:
+                    return "red";
+            }
+        }
+
+
+    </script>
+<script src="~/js/userProfile.js"></script></body>

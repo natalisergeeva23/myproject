@@ -1,0 +1,215 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск задач</title>
+    <link rel="stylesheet" href="~/css/header_footer.css">
+    <link rel="stylesheet" href="~/css/task_search_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <header class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="logo">
+                    <h1>MINIGIGS</h1>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a asp-controller="Home" asp-action="TaskSearch">Поиск задач</a></li>
+                        <li><a asp-controller="Home" asp-action="MyWork">Мои работы</a></li>
+                        <li><a asp-controller="Home" asp-action="FinanceExecutor">Финансы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="user-cabinet">
+                    <a href="javascript:void(0);" class="user-cabinet-link">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="user-profile">
+                    <img src="~/sourse/add_order_img/account_acons.png" alt="img_account_header">
+                    <p id="username">Имя пользователя</p> <!-- Добавлен id для элемента -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container" style="margin-bottom: 350px">
+        <form id="form1" runat="server">
+            <h1>Поиск заданий</h1>
+            <p class="text_search">
+                На этой странице отображаются все доступные вам задания для работы.
+                Чтобы узнать подробности задания, нажмите на заголовок.
+            </p>
+            <table class="table operation-table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Описание</th>
+                        <th>Оплата</th>
+                        <th>Заказчик</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Здесь будут динамически добавлены строки -->
+                </tbody>
+            </table>
+
+            <asp:Button ID="ShowMoreButton" runat="server" Text="Показать ещё" CssClass="show-more-button" />
+        </form>
+    </section>
+
+    <footer class="footer footer-index bg-purple text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="footer-index-container-logo">
+                        <img src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="AboutProjectExecutor">О проекте</a>
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="SupportServiceExecuter">Служба поддержки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="footer-index-text">© MINIGIGS 2024. Сайт может содержать материалы для лиц старше 18 лет</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var linkToCabinet = document.querySelector('.user-cabinet-link');
+
+            linkToCabinet.addEventListener('click', function (e) {
+                e.preventDefault(); // Предотвращаем стандартный переход по ссылке
+                var userRole = localStorage.getItem('userRole');
+
+                if (userRole === '1') {
+                    window.location.href = '/Home/CustomerOffice';
+                } else if (userRole === '2') {
+                    window.location.href = '/Home/ExecutorOffice';
+                } else {
+                    // Если роль не определена, можно перенаправить на страницу входа или показать сообщение
+                    alert('Пожалуйста, выполните вход.');
+                }
+            });
+        });
+    </script>
+    <script></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetchOrders();
+        });
+
+        function fetchOrders() {
+            fetch('http://172.20.10.2:5089/api/Orders')
+                .then(response => response.json())
+                .then(orders => {
+                    const tableBody = document.querySelector('.container table tbody');
+                    orders.forEach(order => {
+                        const row = document.createElement('tr');
+                        const userEmail = order.user ? order.user.email : 'Пользователь не указан';
+
+                        row.innerHTML = `
+                            <td>${order.title}</td>
+                            <td>${order.taskDescription}</td>
+                            <td>${order.cost}</td>
+                            <td>${userEmail}</td>
+                            <td><button class="btn btn-primary" data-order-id="${order.idOrder}" data-user-id="${order.idUser}">Принять</button></td>
+                        `;
+
+                        tableBody.appendChild(row);
+                    });
+
+                    document.querySelectorAll('.btn.btn-primary').forEach(button => {
+                        button.addEventListener('click', function () {
+                            const orderId = this.getAttribute('data-order-id');
+                            const userId = this.getAttribute('data-user-id');
+                            if (confirm('Вы уверены, что хотите принять этот заказ?')) {
+                                acceptOrder(orderId, userId);
+                            }
+                        });
+                    });
+                })
+                .catch(e => {
+                    console.error('Error fetching orders: ', e);
+                });
+        }
+
+        function acceptOrder(orderId, userIds) {
+            var userId = localStorage.getItem('userId');
+
+            const postData = {
+                idOrder: orderId,
+                idUser: userId,
+                id_customer: userIds,
+                nameWorkStatus: "В процессе"
+            };
+
+            fetch('http://172.20.10.2:5089/api/MyWorks', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(postData)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Заказ принят.');
+                    } else {
+                        throw new Error('Ошибка при принятии заказа');
+                    }
+                })
+                .catch(e => {
+                    console.error('Error accepting order: ', e);
+                });
+        }
+
+
+
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Получаем сохраненный ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'text/plain',
+                    // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                }
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(userData => {
+                    console.log(userData);
+                    // Обновляем информацию на странице
+                    document.getElementById('username').textContent = userData.name;
+                    document.getElementById('usernames').textContent = userData.name;
+                    // Если есть другие элементы для обновления, добавьте их здесь
+                })
+                .catch(error => console.error('Failed to fetch user data:', error));
+        });
+
+    </script>
+<script src="~/js/userProfile.js"></script></body>

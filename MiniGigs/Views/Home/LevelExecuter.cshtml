@@ -1,0 +1,139 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уровни исполнителя</title>
+    <link rel="stylesheet" href="~/css/header_footer.css">
+    <link rel="stylesheet" href="~/css/level_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <h1>MINIGIGS</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a asp-controller="Home" asp-action="TaskSearch">Поиск задач</a></li>
+                <li><a asp-controller="Home" asp-action="MyWork">Мои работы</a></li>
+                <li><a asp-controller="Home" asp-action="FinanceExecutor">Финансы</a></li>
+            </ul>
+
+
+        </nav>
+
+        <div class="user-cabinet">
+            
+            <a href="javascript:void(0);" class="user-cabinet-link">Личный кабинет</a>
+        </div>
+
+        <div class="user-profile">
+            <img src="~/sourse/add_order_img/account_acons.png" alt="img_account_header">
+            <p class="username">Имя пользователя</p>
+        </div>
+
+    </header>
+
+    <section class="level">
+        <form id="form1" runat="server">
+            <div class="container">
+                <h1>Уровни исполнителей</h1>
+                <p class="information-text">
+                    Заработанные баллы повышают уровень исполнителя, что ведет к большим заработкам и большему количеству заданий.
+                    За каждое выполненное задание начисляется один балл.
+                </p>
+                
+                <div class="points-system">
+                    <h2>Система начисления и списания баллов</h2>
+                    <ul>
+                        <li>Выполненное задание: +1 балл</li>
+                        <li>Задание с оценкой 5*: +3 балла</li>
+                        <li>Задание с оценкой 4*: +2 балла</li>
+                        <li>Задание с оценкой 2* или 1*: +0 баллов</li>
+                        <li>Отказ заказчика от задания: –2 балла</li>
+                        <li>Инициативный отказ исполнителя от задания: 0 баллов</li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+    <footer class="footer footer-index bg-purple text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="footer-index-container-logo">
+                        <img src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="AboutProjectExecutor">О проекте</a>
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="SupportServiceExecuter">Служба поддержки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="footer-index-text">© MINIGIGS 2024. Сайт может содержать материалы для лиц старше 18 лет</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var linkToCabinet = document.querySelector('.user-cabinet-link');
+
+            linkToCabinet.addEventListener('click', function (e) {
+                e.preventDefault(); // Предотвращаем стандартный переход по ссылке
+                var userRole = localStorage.getItem('userRole');
+
+                if (userRole === '1') {
+                    window.location.href = '/Home/CustomerOffice';
+                } else if (userRole === '2') {
+                    window.location.href = '/Home/ExecutorOffice';
+                } else {
+                    // Если роль не определена, можно перенаправить на страницу входа или показать сообщение
+                    alert('Пожалуйста, выполните вход.');
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Получаем сохраненный ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'text/plain',
+                    // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                }
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(userData => {
+                    console.log(userData);
+                    // Обновляем информацию на странице
+                    document.getElementById('username').textContent = userData.name;
+                    document.getElementById('usernames').textContent = userData.name;
+                    // Если есть другие элементы для обновления, добавьте их здесь
+                })
+                .catch(error => console.error('Failed to fetch user data:', error));
+        });
+
+    </script>
+<script src="~/js/userProfile.js"></script></body>

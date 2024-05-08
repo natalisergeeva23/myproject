@@ -1,0 +1,43 @@
+﻿.container {
+    max-width: 800px;
+}
+
+.site-block-title {
+    color: black;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 126px;
+    
+}
+
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #808080; /* серый */
+    margin-top: 16px;
+    margin-left: 180px;
+}
+table {
+    width: 300px;
+    border-collapse: collapse;
+    margin-top: -150px;
+    margin-left: 350px;
+}
+
+tr, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+.settings_text {
+    margin-left: 180px;
+    margin-top: 58px;
+    color: #6a5acd;
+    text-decoration: none;
+}

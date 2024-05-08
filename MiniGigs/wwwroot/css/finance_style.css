@@ -1,0 +1,73 @@
+﻿.container {
+    max-width: 800px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.section-financeex {
+    margin-bottom: 157px;
+}
+
+.balance-section {
+    background-color: #21328C;
+    padding: 10px;
+}
+
+.balance-info {
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.action-button {
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.operation-history-section {
+    margin-bottom: 20px;
+}
+
+.operation-info {
+    color: #333;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+.filter-dropdown, .filter-input {
+    padding: 5px;
+}
+
+.filter-button {
+    background-color: #6a5acd;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.operation-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .operation-table th, .operation-table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+    }
+
+    .operation-table th {
+        background-color: #f2f2f2;
+    }

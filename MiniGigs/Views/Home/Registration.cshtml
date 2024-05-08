@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="~/css/style_auth_reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Регистрация</h1>
+            <img class="img_auth_logo" src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+        </div>
+        <div class="form">
+            <form id="registrationForm">
+                <div class="input-container">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите ваш e-mail" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон">
+                </div>
+                <div class="input-container">
+                    <label for="nickname">Имя или ник:</label>
+                    <input type="text" id="nickname" name="nickname" placeholder="Введите ваше имя или ник" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" placeholder="Введите ваш пароль" required>
+                </div>
+                <div class="user-type-container">
+                    <label>Выберите роль:</label>
+                    <select id="idRole" name="idRole">
+                        <option value="1">Заказчик</option>
+                        <option value="2">Исполнитель</option>
+                    </select>
+                </div>
+                <button type="submit" class="login-button">Готово</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var form = document.getElementById('registrationForm');
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // Предотвращаем стандартную отправку формы
+
+                var formData = new FormData(form);
+                var userData = {
+                    email: formData.get('email'),
+                    phoneNumber: formData.get('phone'),
+                    name: formData.get('nickname'),
+                    nickname: formData.get('nickname'),
+                    password: formData.get('password'),
+                    idRole: parseInt(formData.get('idRole')),
+                    // FcmToken и Salt можно генерировать на сервере, если они нужны для вашей логики
+                };
+
+                fetch('http://172.20.10.2:5089/api/Users/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'text/plain'
+                    },
+                    body: JSON.stringify(userData)
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            throw new Error('Something went wrong');
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Перенаправление на страницу авторизации после успешной регистрации
+                        window.location.href = '/Home/Authorization';
+                    })
+                    .catch(error => console.error('Error:', error));
+            });
+        });
+    </script>
+
+<script src="~/js/userProfile.js"></script></body>
+

@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВХОД</title>
+    <link rel="stylesheet" href="~/css/style_auth_reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="txt_vhod">Вход</h1>
+            <img class="img_auth_logo" src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+        </div>
+        <div class="form">
+            <div class="input-container">
+                <label class="label_vhod" for="email-phone">E-mail</label>
+                <input type="text" id="email-phone" placeholder="Введите ваш e-mail">
+            </div>
+            <div class="input-container">
+                <label class="label_vhod" for="password">Пароль</label>
+                <input type="password" id="password" placeholder="Введите ваш пароль">
+            </div>
+            <button class="login-button" onclick="validateForm()">Войти в мой аккаунт</button>
+        </div>
+        <div class="footer_link">
+            <a class="vhod-link" asp-controller="Home" asp-action="">Забыли пароль?</a>
+            <a class="vhod-link" asp-controller="Home" asp-action="Registration">Регистрация</a>
+        </div>
+    </div>
+
+    <script>
+        function validateForm() {
+            var email = document.getElementById("email-phone");
+            var password = document.getElementById("password");
+
+            if (email.value == "") {
+                email.setCustomValidity("Пожалуйста, введите ваш электронный адрес.");
+            } else {
+                email.setCustomValidity("");
+            }
+            if (password.value == "") {
+                password.setCustomValidity("Пожалуйста, введите ваш пароль.");
+            } else {
+                password.setCustomValidity("");
+            }
+        }</script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".login-button").addEventListener("click", function () {
+                var emailOrPhone = document.getElementById('email-phone').value;
+                var password = document.getElementById('password').value;
+
+                fetch('http://172.20.10.2:5089/api/Users/login', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'text/plain',
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        email: emailOrPhone,
+                        password: password
+                    })
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log(data);
+                        // Сохраняем токен и ID пользователя
+                        localStorage.setItem('userToken', data.token);
+                        localStorage.setItem('userId', data.userId);
+                        localStorage.setItem('userRole', data.userRole);
+                        localStorage.setItem('userEmail', data.userEmail);
+
+                        if (data.userRole === 1) {
+                            window.location.href = '/Home/CustomerOffice';
+                        } else if (data.userRole === 2) {
+                            window.location.href = '/Home/ExecutorOffice';
+                        }
+                    })
+                    .catch(error => console.error('Authorization failed:', error));
+            });
+        });
+
+    </script>
+<script src="~/js/userProfile.js"></script></body>

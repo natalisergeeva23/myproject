@@ -1,0 +1,52 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container-service {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-block-title {
+    color: black;
+    
+}
+
+.support-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+}
+
+button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Добавляем отступ сверху для кнопки */
+}
+
+    button:hover {
+        background-color: #4a0674;
+    }

@@ -1,0 +1,161 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-block-title {
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar {
+    background-color: #C480FD;
+    width: 250px;
+    padding: 20px;
+}
+
+.sidebar-heading {
+    margin-bottom: 20px;
+}
+
+.sidebar-heading-text {
+    color: black;
+    font-weight: bold;
+}
+
+.sidebar-divider {
+    border: 1px solid blue;
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-item {
+    margin-bottom: 10px;
+}
+
+.navigation-icon {
+    margin-right: 10px;
+}
+
+.navigation-text {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+/*Уровень исполнителя*/
+.user-info {
+    background-color: #21328C;
+    padding: 20px;
+    margin-right: auto; /* Центрируем блок по горизонтали */
+    width: 600px; /* Устанавливаем определенную ширину */
+}
+
+
+.user-level {
+    position: relative;
+    color: white;
+}
+
+.level-text {
+    font-weight: bold;
+}
+
+.level-bar {
+    position: absolute; /* Абсолютное позиционирование */
+    top: 48px; /* Расположение относительно верхнего края .user-level */
+    left: 0; /* Начало с левого края */
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+    margin-top: 11px;
+    width: 0%; /* Начальная ширина */
+}
+
+
+.level-separator {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: -17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-line {
+    width: 3px;
+    height: 40px; /* Высота линии */
+    background-color: white;
+    margin-top: 9px;
+}
+
+.level-label {
+    margin-top: 19px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.level-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.link-icon {
+    margin-right: 5px;
+}
+
+.text-info {
+    color: white;
+}
+
+
+
+/*Баланс*/
+
+
+
+.balance-info {
+    border: 2px solid #8a2be2; /* Фиолетовая граница */
+    background-color: #d3d3d3; /* Серый фон */
+    padding: 20px;
+    width: 300px; /* Ширина блока 80% ширины родительского элемента */
+}
+
+.balance-title {
+    color: black; /* Черный цвет текста */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.balance-amount {
+    color: black; /* Черный цвет текста */
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.balance-buttons {
+    margin-left: 10px; /* Небольшой отступ между кнопками */
+}
+
+.replenish-button,
+.history-button {
+    background-color: #8a2be2; /* Фиолетовый цвет кнопок */
+    color: black; /* Черный цвет текста */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Скругление углов кнопок */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .replenish-button:hover,
+    .history-button:hover {
+        background-color: #6a1e9d; /* Фон при наведении */
+    }

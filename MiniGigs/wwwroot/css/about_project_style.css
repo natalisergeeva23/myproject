@@ -1,0 +1,21 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-block-title {
+    color: black;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 19px;
+}
+
+
+.content {
+    padding: 20px;
+    color: black;
+    margin-left: 162px;
+    width: 70%; /* Ширина контента */
+    float: left; /* Выравнивание текста слева */
+    margin-bottom: 50px;
+}

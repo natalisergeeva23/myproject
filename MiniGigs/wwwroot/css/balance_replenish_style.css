@@ -1,0 +1,59 @@
+﻿.container {
+    max-width: 800px;
+}
+
+.section-balance {
+    margin-bottom: 200px;
+}
+
+
+.text_balance {
+    color: black;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 126px;
+}
+
+.text_sum_balance {
+    color: black;
+    margin-left: 180px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    margin-left: 180px;
+}
+
+.top-up-form {
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #8B00FF; /* фиолетовый */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    button:hover {
+        background-color: #483d8b; /* темно-фиолетовый */
+    }

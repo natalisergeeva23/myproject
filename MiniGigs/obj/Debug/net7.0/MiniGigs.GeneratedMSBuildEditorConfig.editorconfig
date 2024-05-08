@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniGigs
+build_property.RootNamespace = MiniGigs
+build_property.ProjectDir = C:\Users\olp20\Desktop\ната\MiniGigs\MiniGigs\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\olp20\Desktop\ната\MiniGigs\MiniGigs
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/AboutProjectCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFByb2plY3RDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/AboutProjectExecutor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFByb2plY3RFeGVjdXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/AddCustom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRDdXN0b20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/Authorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRob3JpemF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/BalanceReplenishCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYWxhbmNlUmVwbGVuaXNoQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/CustomerOffice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDdXN0b21lck9mZmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/ExecutorOffice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGVjdXRvck9mZmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/FinanceCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/FinanceExecutor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNlRXhlY3V0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/LevelCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZXZlbEN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/LevelExecuter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZXZlbEV4ZWN1dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/MyWork.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVdvcmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/SettingsCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXR0aW5nc0N1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/SettingsExecuter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXR0aW5nc0V4ZWN1dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/SupportServiceCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdXBwb3J0U2VydmljZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/SupportServiceExecuter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdXBwb3J0U2VydmljZUV4ZWN1dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/TaskSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYXNrU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/WithdrawMoneyCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaXRoZHJhd01vbmV5Q3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Home/WithdrawMoneyExecuter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaXRoZHJhd01vbmV5RXhlY3V0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/olp20/Desktop/ната/MiniGigs/MiniGigs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q3v5o5kulj

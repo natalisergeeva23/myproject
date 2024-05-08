@@ -1,0 +1,851 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|c:\\users\\olp20\\desktop\\\u043D\u0430\u0442\u0430\\minigigs\\minigigs\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\aboutprojectcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\aboutprojectcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\olp20\\.nuget\\packages\\epplus\\6.2.6\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\minigigs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\minigigs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\minigigs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\minigigs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\authorization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\authorization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\levelcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\levelcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\level_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\level_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\financecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\financecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\aboutprojectexecutor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\aboutprojectexecutor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\tasksearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\tasksearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\supportserviceexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\supportserviceexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\mywork.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\supportservicecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\supportservicecustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\settingscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\settingscustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\settingsexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\settingsexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\js\\userprofile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\js\\userprofile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\financeexecutor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\financeexecutor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\withdrawmoneyexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\withdrawmoneyexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\customeroffice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\customeroffice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\support_service_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\support_service_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\withdrawmoneycustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\withdrawmoneycustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\executoroffice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\executoroffice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\balancereplenishcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\balancereplenishcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\balance_replenish_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\balance_replenish_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\header_footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\header_footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\addcustom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\addcustom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\levelexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\levelexecuter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\finance_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\finance_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\my_work_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\my_work_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\about_project_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\about_project_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\withdraw_money_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\withdraw_money_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\settings_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\settings_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\my_orders_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\my_orders_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\customer_office_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\customer_office_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\views\\home\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\minigigs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5BDD7B2E-4247-4937-ADC9-3A210CEBDB20}|MiniGigs\\MiniGigs.csproj|solutionrelative:minigigs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MiniGigs",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\MiniGigs.csproj",
+              "RelativeDocumentMoniker": "MiniGigs\\MiniGigs.csproj",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\MiniGigs.csproj",
+              "RelativeToolTip": "MiniGigs\\MiniGigs.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T10:45:11.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MiniGigs",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\MiniGigs.csproj",
+              "RelativeDocumentMoniker": "MiniGigs\\MiniGigs.csproj",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\MiniGigs.csproj",
+              "RelativeToolTip": "MiniGigs\\MiniGigs.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T10:44:57.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:44:04.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Program.cs",
+              "RelativeDocumentMoniker": "MiniGigs\\Program.cs",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Program.cs",
+              "RelativeToolTip": "MiniGigs\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:40:47.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\appsettings.json",
+              "RelativeDocumentMoniker": "MiniGigs\\appsettings.json",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\appsettings.json",
+              "RelativeToolTip": "MiniGigs\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T10:40:47.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MiniGigs\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\appsettings.Development.json",
+              "RelativeToolTip": "MiniGigs\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T10:40:47.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutProjectCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AboutProjectCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\AboutProjectCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AboutProjectCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\AboutProjectCustomer.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAE0AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MiniGigs\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MiniGigs\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T10:40:47.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\olp20\\.nuget\\packages\\epplus\\6.2.6\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\epplus\\6.2.6\\readme.txt",
+              "ToolTip": "C:\\Users\\olp20\\.nuget\\packages\\epplus\\6.2.6\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\epplus\\6.2.6\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-08T10:47:36.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Authorization.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Authorization.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\Authorization.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Authorization.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\Authorization.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAKYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SupportServiceExecuter.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SupportServiceExecuter.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\SupportServiceExecuter.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SupportServiceExecuter.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\SupportServiceExecuter.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MiniGigs\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MiniGigs\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAkwI8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:40:47.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "level_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\level_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\level_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\level_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\level_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LevelCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\LevelCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\LevelCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\LevelCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\LevelCustomer.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FinanceCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\FinanceCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\FinanceCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\FinanceCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\FinanceCustomer.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAC4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AboutProjectExecutor.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AboutProjectExecutor.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\AboutProjectExecutor.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AboutProjectExecutor.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\AboutProjectExecutor.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\TaskSearch.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\TaskSearch.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\TaskSearch.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\TaskSearch.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAFMAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyWork.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\MyWork.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\MyWork.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\MyWork.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\MyWork.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIQBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SupportServiceCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SupportServiceCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\SupportServiceCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SupportServiceCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\SupportServiceCustomer.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\MyOrders.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\MyOrders.cshtml",
+              "ViewState": "AQIAAEABAAAAAAAAAAAQwFIBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SettingsCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SettingsCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\SettingsCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SettingsCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\SettingsCustomer.cshtml",
+              "ViewState": "AQIAALEAAAAAAAAAAABBwKsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SettingsExecuter.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SettingsExecuter.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\SettingsExecuter.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\SettingsExecuter.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\SettingsExecuter.cshtml",
+              "ViewState": "AQIAAAEBAAAAAAAAAAAcwEEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "userProfile.js",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\js\\userProfile.js",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\js\\userProfile.js",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\js\\userProfile.js",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\js\\userProfile.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-08T10:40:47.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MiniGigs\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MiniGigs\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwCUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:40:47.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FinanceExecutor.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\FinanceExecutor.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\FinanceExecutor.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\FinanceExecutor.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\FinanceExecutor.cshtml",
+              "ViewState": "AQIAAKkAAAAAAAAAAABBwMEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WithdrawMoneyExecuter.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\WithdrawMoneyExecuter.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\WithdrawMoneyExecuter.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\WithdrawMoneyExecuter.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\WithdrawMoneyExecuter.cshtml",
+              "ViewState": "AQIAAIUAAAAAAAAAAABBwJ0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CustomerOffice.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\CustomerOffice.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\CustomerOffice.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\CustomerOffice.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\CustomerOffice.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAADwv0gAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "support_service_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\support_service_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\support_service_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\support_service_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\support_service_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WithdrawMoneyCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\WithdrawMoneyCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\WithdrawMoneyCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\WithdrawMoneyCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\WithdrawMoneyCustomer.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAABRwDAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExecutorOffice.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\ExecutorOffice.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\ExecutorOffice.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\ExecutorOffice.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\ExecutorOffice.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAADwvy8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BalanceReplenishCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\BalanceReplenishCustomer.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\BalanceReplenishCustomer.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\BalanceReplenishCustomer.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\BalanceReplenishCustomer.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAABRwDAAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "balance_replenish_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\balance_replenish_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\balance_replenish_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\balance_replenish_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\balance_replenish_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "header_footer.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\header_footer.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\header_footer.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\header_footer.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\header_footer.css",
+              "ViewState": "AQIAAC8AAAAAAAAAAABRwAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AQIAAH0GAAAAAAAAAABRwJAGAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "bootstrap-grid.min.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+              "ViewState": "AQIAAAEAAAAAAAAAAABRwAUAAABeOgAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "bootstrap-grid.rtl.css.map",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACr5gAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-08T10:40:47.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "bootstrap-grid.min.css.map",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAADJvwAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-08T10:40:47.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "bootstrap-grid.rtl.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+              "ViewState": "AQIAAHAGAAAAAAAAAADwv4MGAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddCustom.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AddCustom.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\AddCustom.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\AddCustom.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\AddCustom.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAABRwDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "bootstrap-grid.css.map",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACn5gAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-08T10:40:47.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LevelExecuter.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\LevelExecuter.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\LevelExecuter.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\LevelExecuter.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\LevelExecuter.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAwwE8AAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "finance_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\finance_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\finance_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\finance_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\finance_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "my_work_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_work_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\my_work_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_work_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\my_work_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "withdraw_money_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\withdraw_money_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\withdraw_money_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\withdraw_money_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\withdraw_money_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "about_project_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\about_project_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\about_project_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\about_project_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\about_project_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "settings_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\settings_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\settings_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\settings_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\settings_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "my_orders_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_orders_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\my_orders_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_orders_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\my_orders_style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AQIAAMoHAABAjpmZmdkuwNkHAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-08T10:40:47.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "customer_office_style.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\customer_office_style.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\customer_office_style.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\customer_office_style.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\customer_office_style.css",
+              "ViewState": "AQIAAFgAAAAAsP////8AwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Registration.cshtml",
+              "RelativeDocumentMoniker": "MiniGigs\\Views\\Home\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\Views\\Home\\Registration.cshtml",
+              "RelativeToolTip": "MiniGigs\\Views\\Home\\Registration.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:40:47.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MiniGigs\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\olp20\\Desktop\\\u043D\u0430\u0442\u0430\\MiniGigs\\MiniGigs\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MiniGigs\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-08T10:40:47.895Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+﻿h1, h2 {
+    color: black;
+}
+
+.section1 {
+    margin-top: 25px;
+}
+
+.tabcontent {
+    margin-bottom: 50px;
+}
+
+.tabs {
+    margin-bottom: 10px;
+}
+
+.tab {
+    background-color: #8B00FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+    .tab.active {
+        background-color: #483d8b;
+    }
+
+
+    section.active {
+        display: block;
+        
+    }
+
+.profile-section, .avatar-section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.save-button {
+    background-color: #8B00FF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+    .save-button:hover {
+        background-color: #8B00FF;
+    }

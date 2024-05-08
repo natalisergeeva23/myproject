@@ -1,0 +1,263 @@
+/* Общие стили */
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8a2be2; /* Фиолетовый цвет фона */
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Добавляем вертикальное расположение для элементов */
+    justify-content: center; /* Центрируем элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    padding: 10px 50px; /* Увеличение внутренних отступов */
+}
+
+/*.links {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}*/
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    /* width: 200px;*/ /* Увеличение размера логотипа */ /**/
+    height: auto;
+}
+
+.logo__text {
+    margin-left: 100px; /* Убираем отступы сверху и снизу */
+    font-size: 32px; /* Увеличение размера шрифта */
+    text-align: center;
+    color: white;
+}
+
+.description__text {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.links {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок друг под другом */
+}
+
+.vhod-link {
+    position: relative; /* Необходимо для псевдоэлемента */
+    font-size: 14px;
+    color: white;
+    margin-top: 5px; /* Отступ между кнопками */
+    font-weight: bold;
+    padding-left: 25px; /* Отступ слева для изображения */
+}
+
+    .vhod-link::before {
+        content: ""; /* Создание псевдоэлемента */
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: auto;
+        background-size: contain;
+    }
+
+    .vhod-link:nth-of-type(1)::before {
+        background-image: url('~/sourse/index_img/lock.png'); /* Первое изображение */
+    }
+
+    .vhod-link:nth-of-type(2)::before {
+        background-image: url('~/sourse/index_img/people.png'); /* Второе изображение */
+    }
+
+
+.actions {
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+    margin-top: 60px; /* Добавляем отступ сверху, если нужно */
+}
+
+.actions__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.actions__item {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+.actions__icon {
+    width: 20px; /* Устанавливаем ширину изображения */
+    height: auto; /* Разрешаем изменение высоты в соответствии с шириной */
+    margin-right: 5px; /* Отступ между изображением и текстом */
+}
+
+.actions__list {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем внутренние отступы у списка */
+    text-align: left; /* Выравниваем текст по левому краю */
+}
+
+.actions__item {
+    font-weight: bold; /* Делаем текст элементов списка жирным */
+    margin-bottom: 5px; /* Отступ между элементами списка */
+    font-size: 14px;
+}
+
+.button-list {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.round-button {
+    border: 2px solid #fff; /* Белая граница */
+    border-radius: 30px; /* Скругление углов */
+    background-color: transparent; /* Прозрачный фон */
+    color: #fff; /* Белый цвет текста */
+    padding: 10px 20px; /* Поля кнопки */
+    cursor: pointer;
+    width: 150px; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    display: flex; /* Используем flex-контейнер */
+    justify-content: center; /* Выравниваем по центру по горизонтали */
+    align-items: center; /* Выравниваем по центру по вертикали */
+    text-align: center; /* Выравниваем текст по центру */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+    .round-button:hover {
+        background-color: #fff; /* Изменение фона при наведении */
+        color: #8a2be2; /* Изменение цвета текста при наведении */
+    }
+
+
+
+/*ВТОРОЙ БЛК ГЛАВНОЙ СТРАНИЦЫ*/
+
+.second-block {
+    background-color: #23317E; /* Темно-синий цвет фона */
+    padding: 20px; /* Поля блока */
+}
+
+.second-list {
+    list-style-type: none;
+    display: flex; /* Размещаем элементы списка в строку */
+    flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+}
+
+    .second-list li {
+        display: flex; /* Размещаем содержимое элемента списка в строку */
+        align-items: center; /* Выравниваем элементы по вертикали */
+        margin-right: 20px; /* Отступ между элементами списка */
+        margin-bottom: 10px; /* Отступ между строками */
+        color: #fff; /* Белый цвет текста */
+        font-weight: bold;
+    }
+
+        .second-list li img {
+            width: 100px; /* Устанавливаем ширину изображения */
+            height: auto; /* Разрешаем изменение высоты в соответствии с шириной */
+            margin-right: 10px; /* Отступ между изображением и текстом */
+        }
+
+
+/*ТРЕТИЙ БЛОК ГЛАВНОЙ СТРАНИЦЫ*/
+
+.third-block {
+    background-image: linear-gradient(8deg, #00243c70, white);
+    padding: 20px;
+    overflow: hidden; /* Добавим overflow: hidden для правильного отображения фона */
+}
+
+.list-container {
+    width: 50%;
+    float: left;
+}
+
+.list-title {
+    font-weight: bold;
+    align-items: center;
+    font-size: 32px;
+}
+
+.zakazchic-list, .ispolnitel-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .zakazchic-list li, .ispolnitel-list li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+        .zakazchic-list li img, .ispolnitel-list li img {
+            width: 20px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+
+
+/*ЧЕТВЕРТЫЙ БЛОК ГЛАВНОЙ СТРАНИЦЫ*/
+
+.fourth-block {
+    background-color: #fff; /* Белый фон */
+    padding-top: 20px;
+    display: flex; /* Располагаем элементы внутри блока в строку */
+}
+
+.image-container {
+    flex: 1; /* Распределяем доступное пространство между блоками */
+    margin-left: 180px;
+}
+
+    .image-container img {
+        max-width: 70%; /* Масштабируем картинку по ширине блока */
+        height: auto;
+        margin-left: 9px;
+    }
+
+.listwork-container {
+    flex: 1; /* Распределяем доступное пространство между блоками */
+    padding-left: 20px; /* Отступ слева */
+}
+
+.fourth-list-text {
+    color: #000; /* Черный цвет текста */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fourth-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .fourth-list li {
+        display: flex; /* Размещаем содержимое элемента списка в строку */
+        align-items: center; /* Выравниваем элементы по вертикали */
+        margin-bottom: 10px; /* Отступ между пунктами списка */
+        color: #000; /* Черный цвет текста */
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+        .fourth-list li img {
+            width: 25px; /* Устанавливаем ширину изображения */
+            height: auto; /* Разрешаем изменение высоты в соответствии с шириной */
+            margin-right: 10px; /* Отступ между изображением и текстом */
+        }

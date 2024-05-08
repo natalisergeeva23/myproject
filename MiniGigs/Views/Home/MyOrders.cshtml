@@ -1,0 +1,400 @@
+﻿@{
+    Layout = null;
+}
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои заказы</title>
+    <link rel="stylesheet" href="~/css/header_footer.css">
+    <link rel="stylesheet" href="~/css/my_orders_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <header class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="logo">
+                    <h1>MINIGIGS</h1>
+                </div>
+            </div>
+            <div class="col">
+                <nav class="main-nav">
+                    <ul class="list-unstyled d-flex justify-content-center mb-0">
+                        <li class="mr-3"><a asp-controller="Home" asp-action="AddCustom">Добавить заказ</a></li>
+                        <li class="mr-3"><a asp-controller="Home" asp-action="MyOrders">Мои заказы</a></li>
+                        <li><a asp-controller="Home" asp-action="FinanceCustomer">Финансы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col">
+                <div class="user-cabinet">
+                    
+                    <a href="javascript:void(0);" class="user-cabinet-link">Личный кабинет</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="user-profile">
+                    <img src="~/sourse/add_order_img/account_acons.png" alt="img_account_header">
+                    <p id="username">Имя пользователя</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container navigation-panel-sections">
+        <form id="form1" runat="server">
+            <div class="navigation-panel">
+                <h1>Мои заказы</h1>
+                <a class="btn btn-primary" href="AddCustom">Создать задачу</a>
+                <button id="exportButton" class="btn btn-success">Экспорт заказов</button>
+
+            </div>
+
+            <div class="order-list">
+                <h2>Заказы</h2>
+                <table id="ordersTable" class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Задание</th>
+                            <th>Ссылка</th>
+                            <th>Что нужно для ответа</th>
+                            <th>Дата</th>
+                            <th>Стоимость</th>
+                            <th>Количество</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Заказы будут добавлены здесь -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="completed-works">
+                <h2>Завершённые работы</h2>
+                <table id="completedWorksTable" class="table">
+                    <tr>
+                        <th>Комментарий</th>
+                        <th>Файлы</th> <!-- Обновленный столбец для отображения файлов -->
+                        <th>Действия</th>
+                    </tr>
+                    <!-- Завершённые работы будут добавлены здесь -->
+                </table>
+            </div>
+
+
+        </form>
+
+    </section>
+
+
+    <footer class="footer footer-index bg-purple text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="footer-index-container-logo">
+                        <img src="~/sourse/index_img/logos.png" alt="Логотип сайта">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-links">
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="AboutProjectCustomer">О проекте</a>
+                        <a class="links-footer-index-text" asp-controller="Home" asp-action="SupportServiceCustomer">Служба поддержки</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p class="footer-index-text">© MINIGIGS 2024. Сайт может содержать материалы для лиц старше 18 лет</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var linkToCabinet = document.querySelector('.user-cabinet-link');
+
+            linkToCabinet.addEventListener('click', function (e) {
+                e.preventDefault(); // Предотвращаем стандартный переход по ссылке
+                var userRole = localStorage.getItem('userRole');
+
+                if (userRole === '1') {
+                    window.location.href = '/Home/CustomerOffice';
+                } else if (userRole === '2') {
+                    window.location.href = '/Home/ExecutorOffice';
+                } else {
+                    // Если роль не определена, можно перенаправить на страницу входа или показать сообщение
+                    alert('Пожалуйста, выполните вход.');
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var userId = localStorage.getItem('userId');
+            var tableBody = document.querySelector('.order-list table tbody');
+
+            fetch('http://172.20.10.2:5089/api/Orders/ByUser/' + userId)
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(order => {
+                        var row = document.createElement('tr');
+                        row.innerHTML = `
+                                    <td>${order.title}</td>
+                                            <td>${order.taskDescription}</td>
+                                            <td>${order.link}</td>
+                                            <td>${order.reportComment}</td>
+                                            <td>${order.completionTime}</td>
+                                    <td>${order.cost}</td>
+                                            <td>${order.counts}</td>
+                                `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => {
+                    console.error('Ошибка при получении данных:', error);
+                });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var userId = localStorage.getItem('userId');
+            var completedWorksTableBody = document.querySelector('#completedWorksTable tbody');
+
+            fetch(`http://172.20.10.2:5089/api/WorkCompletions/ByUserId/${userId}`)
+                .then(response => response.json())
+                .then(completions => {
+                    completions.forEach(completion => {
+                        var row = document.createElement('tr');
+                        var filesContent = ''; // Содержание для отображения файлов
+
+                        // Создаем элемент для каждого файла в зависимости от его типа
+                        if (completion.photoPath) {
+                            var fileUrl = `http://172.20.10.2:5089/${completion.photoPath}`;
+                            var fileExtension = completion.photoPath.split('.').pop().toLowerCase();
+
+                            switch (fileExtension) {
+                                case 'png':
+                                case 'jpg':
+                                case 'jpeg':
+                                case 'gif':
+                                    // Если это изображение, отображаем его как картинку
+                                    filesContent += `<img src="${fileUrl}" alt="Фото работы" style="max-width: 100px; height: auto;">`;
+                                    break;
+                                case 'pdf':
+                                    // Если это PDF, добавляем ссылку для скачивания
+                                    filesContent += `<a href="${fileUrl}" download>Скачать PDF</a>`;
+                                    break;
+                                case 'doc':
+                                case 'docx':
+                                    // Если это Word документ, добавляем ссылку для скачивания
+                                    filesContent += `<a href="${fileUrl}" download>Скачать Word документ</a>`;
+                                    break;
+                                // Добавьте дополнительные case для других типов файлов, если нужно
+                                default:
+                                    // Если тип файла неизвестен, добавляем ссылку для скачивания
+                                    filesContent += `<a href="${fileUrl}" download>Скачать файл</a>`;
+                            }
+                        }
+
+                        var actionButtons = ''; // Кнопки действия
+                        if (!completion.orderStatus) {
+                            actionButtons = `
+                                  <button data-action="accept" data-id="${completion.idWorkCompletion}">Принять</button>
+                                  <button data-action="reject" data-id="${completion.idWorkCompletion}">Отклонить</button>
+                              `;
+                        }
+
+                        // Выводим информацию в таблицу
+                        row.innerHTML = `
+                              <td>${completion.comment}</td>
+                              <td>${filesContent}</td>
+                              <td>${actionButtons}</td>
+                          `;
+                        completedWorksTableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Ошибка при получении данных о завершённых работах:', error));
+
+
+
+            // Делегирование событий для кнопок "Принять" и "Отклонить"
+            document.body.addEventListener('click', function (e) {
+                if (e.target.dataset.action === 'accept') {
+                    e.preventDefault(); // Отменяем стандартное действие кнопки
+                    acceptWork(e.target.dataset.id);
+                } else if (e.target.dataset.action === 'reject') {
+                    e.preventDefault(); // Отменяем стандартное действие кнопки
+                    rejectWork(e.target.dataset.id);
+                }
+            });
+
+
+        });
+
+
+        function acceptWork(workCompletionId) {
+            console.log('Начало процесса принятия работы с ID:', workCompletionId);
+
+            // Получаем информацию о завершенной работе
+            fetch(`http://172.20.10.2:5089/api/WorkCompletions/${workCompletionId}`)
+                .then(response => {
+                    console.log('Получена информация о завершенной работе:');
+                    return response.json();
+                })
+                .then(completion => {
+                    console.log(completion);
+
+                    // Получаем информацию о заказе, чтобы узнать стоимость
+                    fetch(`http://172.20.10.2:5089/api/Orders/${completion.idOrder}`)
+                        .then(response => {
+                            console.log('Получена информация о заказе:');
+                            return response.json();
+                        })
+                        .then(order => {
+                            console.log(order);
+
+                            // Получаем текущий баланс пользователя
+                            fetch(`http://172.20.10.2:5089/api/Users/${completion.idUser}`)
+                                .then(response => {
+                                    console.log('Получена информация о пользователе:');
+                                    return response.json();
+                                })
+                                .then(user => {
+                                    console.log(user);
+
+                                    const newAmount = user.amount + order.cost; // Прибавляем стоимость заказа к текущему балансу
+                                    console.log('Новый баланс пользователя:', newAmount);
+                                    // Обновляем баланс исполнителя
+                                    fetch(`http://172.20.10.2:5089/api/Users/${completion.idUser}/UpdateAmount?newAmount=${newAmount}`, {
+                                        method: 'PUT',
+                                        headers: { 'Content-Type': 'application/json' }
+                                    })
+                                        .then(response => {
+                                            console.log('Статус работы обновлен:', true);
+
+                                            // Обновляем статус работы
+                                            fetch(`http://172.20.10.2:5089/api/WorkCompletions/UpdateOrderStatus/${workCompletionId}`, {
+                                                method: 'PUT',
+                                                headers: { 'Content-Type': 'application/json' },
+                                                body: JSON.stringify(true) // Статус работы "принята"
+                                            })
+
+
+                                                .then(() => {
+                                                    console.log('Баланс исполнителя обновлен.');
+
+                                                    alert('Работа принята, баланс исполнителя обновлён.');
+                                                })
+                                                .catch(error => console.error('Ошибка при обновлении баланса исполнителя:', error));
+                                        })
+                                        .catch(error => console.error('Ошибка при обновлении статуса работы:', error));
+                                })
+                                .catch(error => console.error('Ошибка при получении информации о пользователе:', error));
+                        })
+                        .catch(error => console.error('Ошибка при получении информации о заказе:', error));
+                })
+                .catch(error => console.error('Ошибка при получении информации о завершённой работе:', error));
+        }
+
+        function rejectWork(workCompletionId) {
+            console.log('Начало процесса отклонения работы с ID:', workCompletionId);
+
+            // Получаем информацию о завершенной работе, чтобы найти id_my_work
+            fetch(`http://172.20.10.2:5089/api/WorkCompletions/${workCompletionId}`)
+                .then(response => response.json())
+                .then(completion => {
+                    console.log(completion);
+                    const id_my_work = completion.id_my_work; // Предполагается, что в возвращенном объекте есть поле id_my_work
+
+                    // Если id_my_work указан, обновляем статус работы
+                    if (id_my_work) {
+                        // Обновляем статус работы на "В процессе"
+                        fetch(`http://172.20.10.2:5089/api/MyWorks/${id_my_work}/updatestatus`, {
+                            method: 'PUT',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify("В процессе") // Статус работы "В процессе"
+                        })
+                            .then(response => {
+                                if (response.ok) {
+                                    console.log('Статус myWork обновлен на "В процессе".');
+                                    alert("Статус задачи успешно обновлен.");
+                                } else {
+                                    throw new Error('Ошибка при обновлении статуса myWork. Статус ответа: ' + response.status);
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Ошибка при обновлении статуса myWork:', error);
+                            });
+                    } else {
+                        console.error('ID my_work не найден для работы с ID:', workCompletionId);
+                    }
+
+                })
+                .catch(error => {
+                    console.error('Ошибка при получении данных о завершённой работе:', error);
+                });
+        }
+    </script>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Получаем сохраненный ID пользователя
+            var userId = localStorage.getItem('userId');
+
+            fetch(`http://172.20.10.2:5089/api/Users/${userId}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'text/plain',
+                    // Возможно, потребуется добавить токен авторизации в заголовки запроса
+                    'Authorization': 'Bearer ' + localStorage.getItem('userToken')
+                }
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(userData => {
+                    console.log(userData);
+                    // Обновляем информацию на странице
+                    document.getElementById('username').textContent = userData.name;
+                    document.getElementById('usernames').textContent = userData.name;
+                    // Если есть другие элементы для обновления, добавьте их здесь
+                })
+                .catch(error => console.error('Failed to fetch user data:', error));
+        });
+
+    </script>
+    <script>
+        document.querySelector('#exportButton').addEventListener('click', function () {
+            var userId = localStorage.getItem('userId'); // Получение пользовательского ID из Local Storage
+            fetch(`http://172.20.10.2:5089/api/Orders/ExportExcelByUser/${userId}`, { responseType: 'blob' })
+                .then(response => response.blob())
+                .then(blob => {
+                    var url = window.URL.createObjectURL(blob);
+                    var a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Orders.xlsx';
+
+                    // Добавляем ссылку в DOM для IE11
+                    document.body.appendChild(a);
+
+                    // Вызываем метод click() для скачивания файла
+                    a.click();
+
+                    // Удаляем ссылку из DOM
+                    document.body.removeChild(a);
+                })
+                .catch(error => console.error('Ошибка при загрузке Excel файла:', error));
+        });
+
+
+
+    </script>
+
+    <script src="~/js/userProfile.js"></script>
+</body>

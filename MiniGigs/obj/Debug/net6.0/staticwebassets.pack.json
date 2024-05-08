@@ -1,0 +1,445 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MiniGigs.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MiniGigs.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\about_project_style.css",
+      "PackagePath": "staticwebassets\\css\\about_project_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\add_order_style.css",
+      "PackagePath": "staticwebassets\\css\\add_order_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\balance_replenish_style.css",
+      "PackagePath": "staticwebassets\\css\\balance_replenish_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\customer_office_style.css",
+      "PackagePath": "staticwebassets\\css\\customer_office_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\finance_style.css",
+      "PackagePath": "staticwebassets\\css\\finance_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\header_footer.css",
+      "PackagePath": "staticwebassets\\css\\header_footer.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\level_style.css",
+      "PackagePath": "staticwebassets\\css\\level_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_orders_style.css",
+      "PackagePath": "staticwebassets\\css\\my_orders_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\my_work_style.css",
+      "PackagePath": "staticwebassets\\css\\my_work_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\profile_style.css",
+      "PackagePath": "staticwebassets\\css\\profile_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\settings_style.css",
+      "PackagePath": "staticwebassets\\css\\settings_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\style_auth_reg.css",
+      "PackagePath": "staticwebassets\\css\\style_auth_reg.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\support_service_style.css",
+      "PackagePath": "staticwebassets\\css\\support_service_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\task_search_style.css",
+      "PackagePath": "staticwebassets\\css\\task_search_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\css\\withdraw_money_style.css",
+      "PackagePath": "staticwebassets\\css\\withdraw_money_style.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\js\\userProfile.js",
+      "PackagePath": "staticwebassets\\js\\userProfile.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\about_project_img\\icon-About-Project.png",
+      "PackagePath": "staticwebassets\\sourse\\about_project_img\\icon-About-Project.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\VK-Logo-2016.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\VK-Logo-2016.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\account_acons.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\account_acons.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\avito-logo.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\avito-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\comments.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\comments.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\digital-campaign.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\digital-campaign.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\dzen-logo.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\dzen-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\odnoklassniki-logo.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\odnoklassniki-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\promotion.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\promotion.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\rutube-logo.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\rutube-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\telegram-logo.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\telegram-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\to-do-list.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\to-do-list.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\add_order_img\\video-edition.png",
+      "PackagePath": "staticwebassets\\sourse\\add_order_img\\video-edition.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\customer_office_img\\icons-info.png",
+      "PackagePath": "staticwebassets\\sourse\\customer_office_img\\icons-info.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\customer_office_img\\icons-tochka.png",
+      "PackagePath": "staticwebassets\\sourse\\customer_office_img\\icons-tochka.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\galkablack.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\galkablack.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\galkawhite.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\galkawhite.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\garantiimen.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\garantiimen.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\goodIndex.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\goodIndex.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\iconsElips1.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\iconsElips1.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\iconsElips2.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\iconsElips2.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\iconsElips3.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\iconsElips3.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\jobIndex.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\jobIndex.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\lock.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\lock.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\logos.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\logos.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\menIndex.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\menIndex.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\index_img\\people.png",
+      "PackagePath": "staticwebassets\\sourse\\index_img\\people.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\my_orders_img\\icons-delete-basket.png",
+      "PackagePath": "staticwebassets\\sourse\\my_orders_img\\icons-delete-basket.png"
+    },
+    {
+      "Id": "C:\\Users\\olp20\\Desktop\\ната\\MiniGigs\\MiniGigs\\wwwroot\\sourse\\my_orders_img\\icons-edit.png",
+      "PackagePath": "staticwebassets\\sourse\\my_orders_img\\icons-edit.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MiniGigs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MiniGigs.props",
+      "PackagePath": "build\\MiniGigs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MiniGigs.props",
+      "PackagePath": "buildMultiTargeting\\MiniGigs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MiniGigs.props",
+      "PackagePath": "buildTransitive\\MiniGigs.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
